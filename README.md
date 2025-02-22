@@ -89,7 +89,8 @@ COOKIE_SECRET=your_cookie_secret_here
 
 4. **Start the server**
 ```bash
-npm start
+npm run start # production
+npm run dev # development
 ```
 
 ## 📡 WebSocket API Reference
