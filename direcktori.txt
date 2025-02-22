@@ -1,0 +1,23 @@
+surfebeserver/
+├── src/
+│   ├── config/
+│   │   ├── database.js [DONE]
+│   │   └── websocket.js [DONE]
+│   ├── controllers/
+│   │   ├── userController.js [DONE]
+│   │   ├── recaptchaController.js [DONE]
+│   │   ├── twofaController.js [DONE]
+│   │   └── surfebeController.js [DONE]
+│   ├── models/
+│   │   ├── User.js [DONE]
+│   │   └── Recaptcha.js [DONE]
+│   ├── utils/
+│   │   ├── validation.js [DONE]
+│   │   ├── timerController.js [DONE]
+│   │   └── messageHandler.js [DONE]
+│   ├── workers/
+│   │   └── websocketWorker.js [DONE]
+│   └── app.js [DONE]
+├── .env [DONE]
+├── package.json [DONE]
+└── server.js [DONE]

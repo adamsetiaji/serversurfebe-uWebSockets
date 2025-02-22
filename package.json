@@ -1,0 +1,22 @@
+{
+  "name": "serversurfebe-uwebsockets",
+  "version": "1.0.0",
+  "description": "A high-performance WebSocket server built with uWebSockets.js for handling Surfebe automation tasks.",
+  "main": "server.js",
+  "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+  },
+  "dependencies": {
+      "axios": "^1.7.9",
+      "dotenv": "^16.0.3",
+      "jsdom": "^22.1.0",
+      "mysql2": "^2.3.3",
+      "speakeasy": "^2.0.0",
+      "uuid": "^11.1.0",
+      "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.51.0"
+  },
+  "devDependencies": {
+      "nodemon": "^2.0.20"
+  }
+}
